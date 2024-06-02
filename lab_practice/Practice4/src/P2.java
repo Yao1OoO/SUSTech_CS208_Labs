@@ -18,7 +18,7 @@ public class P2 {
         ArrayList<Integer> res = intervalSchedule(s);
         for (int i = 0; i < res.size(); i++) {
             System.out.println(name[res.get(i)]);
-        }
+            }
     }
 
     public static ArrayList<Integer> intervalSchedule(int[][] arr) {
